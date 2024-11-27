@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vacuumvox"
+version = "0.1.0"
+description = "Утилита для сборки озвучки для робота пылесоса. Позволяет сделать транскрипцию аудио файлов, конвертировать в нужный формат и упаковать в tar.gz архив."
+authors = ["Artem Vorobev <a.vorob3yv@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydub = "^0.25.1"
+speechrecognition = "^3.11.0"
+tqdm = "^4.67.1"
+standard-aifc = "^3.13.0"
+ffmpeg-downloader = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
