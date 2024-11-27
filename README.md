@@ -8,12 +8,12 @@
 - **Упаковка в tar.gz**: удобная сборка готовой озвучки для передачи на устройство.
 
 ### Требования
-Для работы проекта необходим [Python]((https://www.python.org/downloads/) 3.12+.
+Для работы проекта необходим [Python](https://www.python.org/downloads/) 3.12+.
 
 ### ️Установка
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/VacuVox.git
+   git clone https://github.com/hugthemoon/vacuumvox.git
    cd vacuumvox
    ```
 2. Установите зависимости
@@ -22,7 +22,7 @@
    poetry install
    poetry run ffdl install --add-path
    ```
-3. Перезапустите консоль, чтобы применить настройки окружения
+3. Перезапустите терминал, чтобы применить настройки окружения
 4. Откройте виртуальное окружение
    ```bash
    poetry shell
